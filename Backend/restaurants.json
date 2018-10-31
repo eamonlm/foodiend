@@ -1,0 +1,34 @@
+[
+  {
+    "imageUrl": "https://unsplash.com/photos/F_xGk7V0Xbc",
+    "name": "Smash Burger",
+    "rating": 4.3,
+    "distance": 0.7,
+    "hours": "Weekdays: 9a.m. - 6p.m.  Weekends: 11a.m. - 6p.m.",
+    "location": "La Fortune Student Center"
+  },
+  {
+    "imageUrl": "https://unsplash.com/photos/Znvxeud6sDc",
+    "name": "Subway",
+    "rating": 4.7,
+    "distance": 0.6,
+    "hours": "Weekdays: 9a.m. - 6p.m.  Weekends: 11a.m. - 6p.m.",
+    "location": "La Fortune Student Center"
+  },
+  {
+    "imageUrl": "https://unsplash.com/photos/IlAPq27FxZ0",
+    "name": "Taco Bell",
+    "rating": 3.8,
+    "distance": 0.5,
+    "hours": "Weekdays: 9a.m. - 6p.m.  Weekends: 11a.m. - 6p.m.",
+    "location": "La Fortune Student Center"
+  },
+  {
+    "imageUrl": "https://unsplash.com/photos/zMNaLdiZ2_I",
+    "name": "Starbucks",
+    "rating": 4.6,
+    "distance": 0.6,
+    "hours": "Weekdays: 9a.m. - 6p.m.  Weekends: 11a.m. - 6p.m.",
+    "location": "La Fortune Student Center"
+  }
+]
