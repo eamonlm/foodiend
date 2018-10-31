@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en-us" ng-app="myApp"> 
+    <head>
+        <title>Learn and Understand AngularJS</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <meta charset="UTF-8">
+
+<!--         load bootstrap and fontawesome via CDN -->
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+        <style>
+            html, body, input, select, textarea
+            {
+                font-size: 1.05em;
+            }
+        </style>
+        
+        <!-- load angular via CDN -->
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+        <script src="myapp.js"></script>
+        <div ng-controller="mainController">
+        </div>
+    </head>
+    <body>
+
+        <header>
+			<nav class="navbar navbar-default">
+			<div class="container">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="/">AngularJS</a>
+				</div>
+
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#"><i class="fa fa-home"></i> Home</a></li>
+				</ul>
+			</div>
+			</nav>
+		</header>
+
+<link rel="stylesheet" href="style.css">
+        
+        <div ng-controller="mainController"> 
+            
+
+<!--
+<div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="img/hamburger.png" alt="Card image cap">
+  <div class="card-body">
+    <h3 class="card-title">Burgers</h3>
+  </div>
+</div> 
+
+ <div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="img/egg.png" alt="Card image cap">
+  <div class="card-body">
+    <h3 class="card-title">Breakfast</h3>
+  </div>
+</div>  
+            
+<div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="img/cup.png" alt="Card image cap">
+  <div class="card-body">
+    <h3 class="card-title">Coffee</h3>
+  </div>
+</div>
+            
+<div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="img/hamburger.png" alt="Card image cap">
+  <div class="card-body">
+    <h4 class="card-title">Smashburger</h4>
+  </div>
+</div>
+-->
+
+            <div class="card" style="width: 18rem;"  ng-repeat="food in foods track by $index" >
+            
+              <div class="card-body">
+                  <img class="card-img-top" ng-src="{{food.image}}" alt="Card image cap">
+                <h3 class="card-title">{{food.name}}</h3>
+                  <p class="card-text">{{food.rating}}</p>
+                  <p class="card-dist">{{food.distance}}</p>
+              </div>
+            </div>    
+        </div>
+<!--        <div class="container">-->
+
+
+
+<!--
+                <h1>Category</h1>
+            </div>
+            
+		</div>
+        <div class="container">
+
+            
+                <h2>Burgers</h2>
+                <h2>Seafood</h2>
+                <img src="img/hamburger.png">
+            </div>
+            
+        <div class="container">
+
+          
+            <h2>Seafood</h2>
+            <img src="img/shrimp.png">
+            </div>
+            
+               
+<div class="container">
+          
+                <h2>Desserts</h2>
+                <img src="img/cupcake-2.png">
+            </div>
+		
+     
+<div class="container">
+
+           
+            <h2>Breakfast</h2>
+            <img src="img/egg.png">
+            </div>
+        
+-->
+    
+
+        
+<!--
+            <h2>Coffee</h2>
+            <img src="img/cup.png">
+            </div>
+        
+         
+        <div class="container">
+
+            
+            <h2>Mexican</h2>
+            <img src="img/taco.png">
+            </div>
+            
+    
+        <div class="container">
+
+            
+            <h2>Pizza</h2>
+            <img src="img/pizza.png">
+            </div>
+       
+        
+        <div class="container">
+
+           
+            <h2>Pastries</h2>
+            <img src="img/doughnut-1.png">
+            </div>
+        
+        
+        <div class="container">
+
+          
+            <h2>Fruit</h2>
+            <img src="img/strawberry.png">
+            </div>
+       
+        
+    <div class="container">
+
+          
+            <h2>Hot Dogs</h2>
+            <img src="img/hot-dog.png">
+            </div>
+      
+        
+        <div class="container">
+
+          
+            <h2>Dessert</h2>
+            <img src="img/hamburger.png">
+            </div>
+-->
+        
+    </body>
+</html>
+    
+    
+    
+    
