@@ -5,6 +5,13 @@ var fs = require('fs');
 // Define variables
 const app = express();
 
+// enable CORS on /list route only
+app.use(function(req, res, next) {
+  res.header("Access-Control-Allow-Origin", "*");
+  res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+  next();
+})
+
 // Body
 app.get('/food', function(req, res) {
   fs.readFile('restaurants.json', function(err, data) {
