@@ -4,7 +4,7 @@
     "name": "Smash Burger",
     "rating": 4.3,
     "distance": 0.7,
-    "hours": "Weekdays: 9a.m. - 6p.m.  Weekends: 11a.m. - 6p.m.",
+    "hours": "Monday - Sunday: 10:00 am - 10:00 pm",
     "location": "La Fortune Student Center"
   },
   {
@@ -12,7 +12,7 @@
     "name": "Subway",
     "rating": 4.7,
     "distance": 0.6,
-    "hours": "Weekdays: 9a.m. - 6p.m.  Weekends: 11a.m. - 6p.m.",
+    "hours": "Monday - Friday: 8:00 am - 1:00 am;  Saturday: 10:00 am - 1:00 am",
     "location": "La Fortune Student Center"
   },
   {
@@ -20,7 +20,7 @@
     "name": "Taco Bell",
     "rating": 3.8,
     "distance": 0.5,
-    "hours": "Weekdays: 9a.m. - 6p.m.  Weekends: 11a.m. - 6p.m.",
+    "hours": "Monday - Thursday 10:30 am - 10:00 pm;  Friday: 10:30 am - 3:00 am;  Saturday: 5:00 pm - 3:00 am;  Sunday: closed",
     "location": "La Fortune Student Center"
   },
   {
@@ -28,7 +28,23 @@
     "name": "Starbucks",
     "rating": 4.6,
     "distance": 0.6,
-    "hours": "Weekdays: 9a.m. - 6p.m.  Weekends: 11a.m. - 6p.m.",
+    "hours": "Monday - Friday: 7:30 am - 1:00 am;  Saturday - Sunday 9:30 am - 1:00 am",
     "location": "La Fortune Student Center"
+  },
+  {
+    "imageUrl": "https://unsplash.com/photos/QYp5tOmb4FU",
+    "name": "Pizza Hut",
+    "rating": 3.5,
+    "distance": 0.3,
+    "hours": "Monday - Thursday 10:30 am - 10:00 pm;  Friday: 10:30 am - 3:00 am;  Saturday: 5:00 pm - 3:00 am;  Sunday: closed",
+    "location": "La Fortune Student Center"
+  },
+  {
+    "imageUrl": "https://unsplash.com/photos/Jop_Y3rYFQU",
+    "name": "Star Ginger",
+    "rating": 4.3,
+    "distance": 0.4,
+    "hours": "Monday - Saturday 11:00 am - 8:00 pm; Closed Sunday",
+    "location": "Duncan Student Center"
   }
 ]
