@@ -1,90 +1,146 @@
 [
-  {
-    "imageUrl": "https://images.unsplash.com/photo-1534790566855-4cb788d389ec?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=29d5fd7ac0936122d9f8453830f358df&auto=format&fit=crop&w=1350&q=80",
-    "name": "Smash Burger",
-    "rating": 4.3,
-    "distance": 0.7,
-    "hours": "Monday - Sunday: 10:00 am - 10:00 pm",
-    "location": "La Fortune Student Center"
-  },
-  {
-    "imageUrl": "https://images.unsplash.com/photo-1509722747041-616f39b57569?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=22d738090b14113ac4c10a757173586d&auto=format&fit=crop&w=1350&q=80",
-    "name": "Subway",
-    "rating": 4.7,
-    "distance": 0.6,
-    "hours": "Monday - Friday: 8:00 am - 1:00 am;  Saturday: 10:00 am - 1:00 am",
-    "location": "La Fortune Student Center"
-  },
-  {
-    "imageUrl": "https://images.unsplash.com/photo-1524412529635-a258ed66c010?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=916728c49c3739ec0e9c4e063b9a2c9e&auto=format&fit=crop&w=1285&q=80",
-    "name": "Taco Bell",
-    "rating": 3.8,
-    "distance": 0.5,
-    "hours": "Monday - Thursday 10:30 am - 10:00 pm;  Friday: 10:30 am - 3:00 am;  Saturday: 5:00 pm - 3:00 am;  Sunday: closed",
-    "location": "La Fortune Student Center"
-  },
-  {
-    "imageUrl": "https://images.unsplash.com/photo-1528732263440-4dd1a18a4cc2?ixlib=rb-0.3.5&s=e5ac92b333b6359f7f1d629bbec2576d&auto=format&fit=crop&w=668&q=80",
-    "name": "Starbucks",
-    "rating": 4.6,
-    "distance": 0.6,
-    "hours": "Monday - Friday: 7:30 am - 1:00 am;  Saturday - Sunday 9:30 am - 1:00 am",
-    "location": "La Fortune Student Center"
-  },
-  {
-    "imageUrl": "https://images.unsplash.com/photo-1523476467467-16477f18dba0?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=45a9904acd8e1822d0307d177ec3ee8f&auto=format&fit=crop&w=1350&q=80",
-    "name": "Pizza Hut",
-    "rating": 3.5,
-    "distance": 0.3,
-    "hours": "Monday - Thursday 10:30 am - 10:00 pm;  Friday: 10:30 am - 3:00 am;  Saturday: 5:00 pm - 3:00 am;  Sunday: closed",
-    "location": "La Fortune Student Center"
-  },
-  {
-    "imageUrl": "https://images.unsplash.com/photo-1528434666572-63fceb3c633d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b9075c76c4fe70dbc94cd8e5faaf1c92&auto=format&fit=crop&w=2468&q=80",
-    "name": "Star Ginger",
-    "rating": 4.3,
-    "distance": 0.4,
-    "hours": "Monday - Saturday 11:00 am - 8:00 pm; Closed Sunday",
-    "location": "Duncan Student Center"
-  },
-  {
-    "imageUrl": "https://images.unsplash.com/photo-1523476467467-16477f18dba0?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=45a9904acd8e1822d0307d177ec3ee8f&auto=format&fit=crop&w=2550&q=80",
-    "name": "Modern Market Menus",
-    "rating": 4.1,
-    "distance": 0.7,
-    "hours": "Monday - Friday: 8:00 am - 8:00 pm; Saturday - Sunday: 10:00 am - 8:00 pm",
-    "location": "Duncan Student Center"
-  },
-  {
-    "imageUrl": "https://images.unsplash.com/photo-1529688499411-262f191fe29e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e792852cdfe94c89c561ffff69047cb0&auto=format&fit=crop&w=975&q=80",
-    "name": "Hagerty Family Cafe",
-    "rating": 4.4,
-    "distance": 0.5,
-    "hours": "Monday - Friday: 7:30 am - 9:00 pm; Saturday - Sunday: 10:00 am - 8:00 pm",
-    "location": "Duncan Student Center"
-  },
-  {
-    "imageUrl": "https://images.unsplash.com/photo-1426869981800-95ebf51ce900?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=63ec77eae2b7b81c8beab9e87bbd3a01&auto=format&fit=crop&w=1350&q=80",
-    "name": "Legends",
-    "rating": 4.2,
-    "distance": 1.5,
-    "hours": "Monday - Wednesday: 11:00 am - 10:00 pm; Thursday - Saturday: 11:00 am - 12:00 am; Sunday: 11:00 am - 9:00 pm",
-    "location": "Legends of Notre Dame"
-  },
-  {
-    "imageUrl": "https://images.unsplash.com/photo-1534308983496-4fabb1a015ee?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=41d4e761f4b677daa6d016f4d9d6b743&auto=format&fit=crop&w=1355&q=80",
-    "name": "Reckers",
-    "rating": 3.8,
-    "distance": 0.4,
-    "hours": "Monday - Thursday: 6:00 pm - 2:00 am; Friday - Saturday: 6:00 pm - 3:00 am; Sunday: 6:00 pm - 12:00 am",
-    "location": "South side of South Dinning Hall"
-  },
-  {
-    "imageUrl": "https://images.unsplash.com/photo-1539255313823-d1ffa231b903?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=4dac27b6578cb9b5bc9f0f9a24726f27&auto=format&fit=crop&w=1350&q=80",
-    "name": "Rohr's",
-    "rating": 4.7,
-    "distance": 0.8,
-    "hours": "Sunday - Thursday: 11:00 am - 12:00 am; Friday - Saturday: 11:00 am - 1:00 am",
-    "location": "Morris Inn"
-  }
+    {
+      "imageUrl": "https://images.unsplash.com/photo-1534790566855-4cb788d389ec?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=29d5fd7ac0936122d9f8453830f358df&auto=format&fit=crop&w=1350&q=80",
+      "name": "Smash Burger",
+      "rating": 4.3,
+      "distance": 0.7,
+      "hours": "Monday - Sunday: 10:00 am - 10:00 pm",
+      "location": "La Fortune Student Center"
+    },
+    {
+      "imageUrl": "https://images.unsplash.com/photo-1509722747041-616f39b57569?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=22d738090b14113ac4c10a757173586d&auto=format&fit=crop&w=1350&q=80",
+      "name": "Subway",
+      "rating": 4.7,
+      "distance": 0.6,
+      "hours": "Monday - Friday: 8:00 am - 1:00 am;  Saturday: 10:00 am - 1:00 am",
+      "location": "La Fortune Student Center"
+    },
+    {
+      "imageUrl": "https://images.unsplash.com/photo-1524412529635-a258ed66c010?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=916728c49c3739ec0e9c4e063b9a2c9e&auto=format&fit=crop&w=1285&q=80",
+      "name": "Taco Bell",
+      "rating": 3.8,
+      "distance": 0.5,
+      "hours": "Monday - Thursday 10:30 am - 10:00 pm;  Friday: 10:30 am - 3:00 am;  Saturday: 5:00 pm - 3:00 am;  Sunday: closed",
+      "location": "La Fortune Student Center"
+    },
+    {
+      "imageUrl": "https://images.unsplash.com/photo-1528732263440-4dd1a18a4cc2?ixlib=rb-0.3.5&s=e5ac92b333b6359f7f1d629bbec2576d&auto=format&fit=crop&w=668&q=80",
+      "name": "Starbucks",
+      "rating": 4.6,
+      "distance": 0.6,
+      "hours": "Monday - Friday: 7:30 am - 1:00 am;  Saturday - Sunday 9:30 am - 1:00 am",
+      "location": "La Fortune Student Center"
+    },
+    {
+      "imageUrl": "https://images.unsplash.com/photo-1523476467467-16477f18dba0?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=45a9904acd8e1822d0307d177ec3ee8f&auto=format&fit=crop&w=1350&q=80",
+      "name": "Pizza Hut",
+      "rating": 3.5,
+      "distance": 0.3,
+      "hours": "Monday - Thursday 10:30 am - 10:00 pm;  Friday: 10:30 am - 3:00 am;  Saturday: 5:00 pm - 3:00 am;  Sunday: closed",
+      "location": "La Fortune Student Center"
+    },
+    {
+      "imageUrl": "https://images.unsplash.com/photo-1528434666572-63fceb3c633d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b9075c76c4fe70dbc94cd8e5faaf1c92&auto=format&fit=crop&w=2468&q=80",
+      "name": "Star Ginger",
+      "rating": 4.3,
+      "distance": 0.4,
+      "hours": "Monday - Saturday 11:00 am - 8:00 pm; Closed Sunday",
+      "location": "Duncan Student Center"
+    },
+    {
+      "imageUrl": "https://images.unsplash.com/photo-1523476467467-16477f18dba0?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=45a9904acd8e1822d0307d177ec3ee8f&auto=format&fit=crop&w=2550&q=80",
+      "name": "Modern Market Menus",
+      "rating": 4.1,
+      "distance": 0.7,
+      "hours": "Monday - Friday: 8:00 am - 8:00 pm; Saturday - Sunday: 10:00 am - 8:00 pm",
+      "location": "Duncan Student Center"
+    },
+    {
+      "imageUrl": "https://images.unsplash.com/photo-1529688499411-262f191fe29e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e792852cdfe94c89c561ffff69047cb0&auto=format&fit=crop&w=975&q=80",
+      "name": "Hagerty Family Cafe",
+      "rating": 4.4,
+      "distance": 0.5,
+      "hours": "Monday - Friday: 7:30 am - 9:00 pm; Saturday - Sunday: 10:00 am - 8:00 pm",
+      "location": "Duncan Student Center"
+    },
+    {
+      "imageUrl": "https://images.unsplash.com/photo-1426869981800-95ebf51ce900?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=63ec77eae2b7b81c8beab9e87bbd3a01&auto=format&fit=crop&w=1350&q=80",
+      "name": "Legends",
+      "rating": 4.2,
+      "distance": 1.5,
+      "hours": "Monday - Wednesday: 11:00 am - 10:00 pm; Thursday - Saturday: 11:00 am - 12:00 am; Sunday: 11:00 am - 9:00 pm",
+      "location": "Legends of Notre Dame"
+    },
+    {
+      "imageUrl": "https://images.unsplash.com/photo-1534308983496-4fabb1a015ee?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=41d4e761f4b677daa6d016f4d9d6b743&auto=format&fit=crop&w=1355&q=80",
+      "name": "Reckers",
+      "rating": 3.8,
+      "distance": 0.4,
+      "hours": "Monday - Thursday: 6:00 pm - 2:00 am; Friday - Saturday: 6:00 pm - 3:00 am; Sunday: 6:00 pm - 12:00 am",
+      "location": "South side of South Dinning Hall"
+    },
+    {
+      "imageUrl": "https://images.unsplash.com/photo-1539255313823-d1ffa231b903?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=4dac27b6578cb9b5bc9f0f9a24726f27&auto=format&fit=crop&w=1350&q=80",
+      "name": "Rohr's",
+      "rating": 4.7,
+      "distance": 0.8,
+      "hours": "Sunday - Thursday: 11:00 am - 12:00 am; Friday - Saturday: 11:00 am - 1:00 am",
+      "location": "Morris Inn"
+    },
+    {
+      "imageUrl": "https://images.unsplash.com/photo-1503442947665-4c7bb47d5daf?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a64eadfc2823c8c5c858c0abd7efe9e1&auto=format&fit=crop&w=1406&q=80",
+      "name": "Sorin's",
+      "rating": 4.9,
+      "distance": 0.2,
+      "hours": "Monday - Sunday: 6:30 am - 10:30 am, 11:00 am - 2:00 pm; Tuesday - Sunday: 5:30 pm - 9:30 pm",
+      "location": "Morris Inn"
+    },
+    {
+      "imageUrl": "https://images.unsplash.com/photo-1512852939750-1305098529bf?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a5832df503143f0eb527593cd0c5abe6&auto=format&fit=crop&w=1350&q=80",
+      "name": "Cafe de Grasta",
+      "rating": 3.6,
+      "distance": 0.9,
+      "hours": "Monday - Friday: 7:00 am - 3:00 pm",
+      "location": "Grace Hall"
+    },
+    {
+      "imageUrl": "",
+      "name": "A la Descartes",
+      "rating": 3.4,
+      "distance": 0.6,
+      "hours": "Monday - Friday: 9:00 am - 5:00 pm",
+      "location": "Jordan Hall of Science"
+    },
+    {
+      "imageUrl": "",
+      "name": "Kitz Kafe",
+      "rating": 3.2,
+      "distance": 1.5,
+      "hours": "Monday - Friday: 9:00 am - 3:00 pm",
+      "location": "Stinson-Remick Hall of Engineering"
+    },
+    {
+      "imageUrl": "",
+      "name": "Cafe Commons",
+      "rating": 3.2,
+      "distance": 0.8,
+      "hours": "Monday - Thursday: 7:00 am - 5:00 pm; Friday: 7:00 am - 4:00 pm",
+      "location": "Mendoza College of Buisness"
+    },
+    {
+      "imageUrl": "",
+      "name": "Crossings",
+      "rating": 3.8,
+      "distance": 0.6,
+      "hours": "Monday - Thursday: 7:00 am - 5:00 pm; Friday: 7:00 am - 4:00 pm",
+      "location": "Eck Hall of Law"
+    },
+    {
+      "imageUrl": "",
+      "name": "McCourtney Espresso Cart",
+      "rating": 3.8,
+      "distance": 0.6,
+      "hours": "Monday - Sunday: 7:30 am - 2:00 pm",
+      "location": "McCourtney"
+    }
 ]
