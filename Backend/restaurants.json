@@ -142,5 +142,141 @@
       "distance": 0.6,
       "hours": "Monday - Sunday: 7:30 am - 2:00 pm",
       "location": "McCourtney"
+    },
+    {
+      "imageUrl": "",
+      "name": "Au Bon Pain Express",
+      "rating": 4.2,
+      "distance": 0.6,
+      "hours": "Monday - Friday: 8:00 am - 3:00 pm",
+      "location": "Hesburgh Center for International Studies"
+    },
+    {
+      "imageUrl": "",
+      "name": "Au Bon Pain Express Cart",
+      "rating": 3.2,
+      "distance": 0.2,
+      "hours": "Monday, Wednesday: 8:00 am - 3:30 pm; Tuesday, Thursday: 8:30 am - 3:30 pm; Friday: 8:00 am - 3:00 pm",
+      "location": "Debartolo Hall"
+    },
+    {
+      "imageUrl": "",
+      "name": "Au Bon Pain",
+      "rating": 3.9,
+      "distance": 0.8,
+      "hours": "Monday - Thursday: 7:00 am - 11:00 pm; Friday: 7:00 am - 10:00 pm; Saturday: 9:00 am - 10:00 pm; Sunday: 10:00 am - 11:00 pm",
+      "location": "Hesburgh Library"
+    },
+    {
+      "imageUrl": "",
+      "name": "Cafe Poche",
+      "rating": 4.2,
+      "distance": 0.6,
+      "hours": "Monday - Friday: 8:00 am - 3:00 pm",
+      "location": "Bond"
+    },
+    {
+      "imageUrl": "",
+      "name": "Decio Cafe",
+      "rating": 4.0,
+      "distance": 0.8,
+      "hours": "Monday - Friday: 7:00 am - 3:00 pm",
+      "location": "Decio Faculty Hall"
+    },
+    {
+      "imageUrl": "",
+      "name": "Nanovic Espresso Cart",
+      "rating": 3.0,
+      "distance": 0.4,
+      "hours": "Monday - Friday: 8:00 am - 2:00 pm",
+      "location": "Nanovic Hall"
+    },
+    {
+      "imageUrl": "",
+      "name": "Charron Family Commons",
+      "rating": 4.8,
+      "distance": 0.2,
+      "hours": "Monday - Thursday: 7:00 am - 5:00 pm; Friday: 7:00 am - 4:00 pm",
+      "location": "O'Shaghennesy Hall"
+    },
+    {
+      "imageUrl": "",
+      "name": "Siegfried Pizzeria",
+      "rating": 2.4,
+      "distance": 10.0,
+      "hours": "Sunday - Thursday: 9:30 pm - 12:30 am",
+      "location": "Siegfried Hall"
+    },
+    {
+      "imageUrl": "",
+      "name": "Bullwinkles",
+      "rating": 4.8,
+      "distance": 0.2,
+      "hours": "Monday - Thursday: 9:30 pm - 12:00 am; Sunday: 9:00 pm - 12:30 am",
+      "location": "Dillon Hall"
+    },
+    {
+      "imageUrl": "",
+      "name": "Dawg Pizza",
+      "rating": 3.2,
+      "distance": 0.6,
+      "hours": "Monday - Thursday: 9:30 pm - 12:30 am;",
+      "location": "Alumni Hall"
+    },
+    {
+      "imageUrl": "",
+      "name": "Zahm Za",
+      "rating": 2.2,
+      "distance": 0.8,
+      "hours": "Sunday - Thursday: 10:00 pm - 1:00 am; Friday - Saturday: 11:00 am - 3:00 am",
+      "location": "Zahm Hall"
+    },
+    {
+      "imageUrl": "",
+      "name": "Zaland",
+      "rating": 4.2,
+      "distance": 0.6,
+      "hours": "Sunday - Thursday: 9:30 pm - 12:30 am; Friday - Saturday: 11:30 pm - 2:30 am",
+      "location": "Keenan Hall"
+    },
+    {
+      "imageUrl": "",
+      "name": "Yaz's",
+      "rating": 4.0,
+      "distance": 0.3,
+      "hours": "Monday - Thursday: 10:00 pm - 1:00 am; Sunday: 11:00 pm - 1:00 am",
+      "location": "Pangborn Hall"
+    },
+    {
+      "imageUrl": "",
+      "name": "Naughty Noodles",
+      "rating": 3.5,
+      "distance": 0.4,
+      "hours": "Friday: 9:30 pm - 2:30 am",
+      "location": "Knott Hall"
+    },
+    {
+      "imageUrl": "",
+      "name": "Shamrock Snack Shack",
+      "rating": 3.8,
+      "distance": 0.9,
+      "hours": "Tuesday - Thursday: 9:00 pm - 12:00 am",
+      "location": "McGlinn Hall"
+    },
+    {
+      "imageUrl": "",
+      "name": "Ed's",
+      "rating": 4.4,
+      "distance": 0.4,
+      "hours": "Sunday - Thursday: 9:00 pm - 1:00 am; Friday - Saturday: 12:00 am - 3:00 am",
+      "location": "Saint Edward's Hall"
+    },
+    {
+      "imageUrl": "",
+      "name": "Cafe Far-Far",
+      "rating": 3.5,
+      "distance": 0.9,
+      "hours": "Sunday - Tuesday: 9:00 pm - 12:00 am",
+      "location": "Farley Hall"
     }
 ]
