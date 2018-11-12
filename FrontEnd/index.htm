@@ -17,11 +17,11 @@
         <!-- load angular via CDN -->
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
         <script src="myapp.js"></script>
-        
+
     </head>
     <body>
 <div ng-controller="mainController">
-        
+
         <header>
 			<nav class="navbar navbar-default">
 			<div class="container">
@@ -38,7 +38,7 @@
 
 <link rel="stylesheet" href="style.css">
 
-        
+
 
 <!--
 <div class="card" style="width: 18rem;">
@@ -73,8 +73,8 @@
             <div class="card" style="width: 18rem;"  ng-repeat="food in foods track by $index" >
 
               <div class="card-body">
-                  <img class="card-img-top" ng-src="{{food.image}}" alt="Card image cap">
-                <h3 class="card-title">{{food.name}}</h3>
+                  <img class="card-img-top" ng-src="{{food.imageUrl}}" alt="Card image cap" style="width:96% ;max-height:auto;">
+                <h3 class="card-title">{{food.name}} </h3>
                   <p class="card-text">{{food.rating}}</p>
                   <p class="card-dist">{{food.distance}}</p>
               </div>
