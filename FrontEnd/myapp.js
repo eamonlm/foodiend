@@ -1,8 +1,33 @@
 var myApp = angular.module('myApp', []);
 
+app.config(function($routeProvider) {
+   $routeProvider
+    .when('/page1', {
+        templateUrl: 'partials/Home.htm',
+        controller:'mainController'
+        })
+    .when('/page2', {
+        templateUrl: 'partials/Ordering.htm',
+        controller:"orderingController'"
+        })
+    .when('/page3', {
+        templateUrl: 'partials/Payment.htm'
+        controller:'paymentController'
+        })
+          )
+  }
+
+myApp.controller('orderingController' , [
+'$scope', function($scope)
+$scope.toppings = []
+$Scope.toppings[0]= {toppings: "Sausage", "Pepperoni", "Cheese"}
+
+
+])
+
+
 myApp.controller('mainController', [
   '$scope', '$http', function($scope, $http) {
-
     $http({
       method: 'GET',
       url: 'http://localhost:3000/food'
