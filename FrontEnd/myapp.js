@@ -1,8 +1,28 @@
-var myApp = angular.module('myApp', []);
+var myApp = angular.module('myApp', ["ngRoute"]);
+
+myApp.config(function($routeProvider) {
+   $routeProvider
+    .when('/', {
+        templateUrl: 'main.htm',
+        controller:'mainController'
+        })
+    .when('/order', {
+        templateUrl: 'ordering.htm',
+        controller:"orderingController'"
+        })
+}
+  )
+
+myApp.controller('orderingController' , [
+'$scope', function($scope){
+$scope.toppings = []
+$scope.toppings[0]= {name:'Sausage'}
+}
+])
+
 
 myApp.controller('mainController', [
   '$scope', '$http', function($scope, $http) {
-
     $http({
       method: 'GET',
       url: 'http://localhost:3000/food'
