@@ -9,6 +9,9 @@
   "author": "Thomas Lynch",
   "license": "UNLICENSED",
   "dependencies": {
-    "express": "^4.16.3"
+    "braintree": "^2.13.1",
+    "express": "^4.16.3",
+    "gateway": "^1.0.0",
+    "sandbox": "^0.8.6"
   }
 }
