@@ -1,0 +1,9 @@
+<div class="card" style="width: 18rem;"  ng-repeat="food in foods track by $index" >
+              <div class="card-body">
+                  <img class="card-img-top" ng-src="{{food.imageUrl}}" alt="Card image cap" >
+                <h3 class="card-title">{{food.name}} </h3>
+                  <p class="card-text">{{food.rating}}</p>
+                  <p class="card-dist">{{food.distance}}</p>
+              </div>
+            
+            </div>

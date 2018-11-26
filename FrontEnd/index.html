@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en-us" ng-app="myApp">
     <head>
         <title>Learn and Understand AngularJS</title>
@@ -7,6 +7,7 @@
 
 <!--         load bootstrap and fontawesome via CDN -->
         <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="style.css">
         <style>
             html, body, input, select, textarea
             {
@@ -16,11 +17,11 @@
 
         <!-- load angular via CDN -->
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
-        <script src="myapp.js"></script>
-
+        <script src="myApp.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular-route.js"></script>
     </head>
     <body>
-<div ng-controller="mainController">
+<div >
 
         <header>
 			<nav class="navbar navbar-default">
@@ -36,7 +37,7 @@
 			</nav>
 		</header>
 
-<link rel="stylesheet" href="style.css">
+
 
 
 
@@ -69,17 +70,31 @@
   </div>
 </div>
 -->
+<div ng-view></div>
+<!--
+<script>
+    myApp.config(function($routeProvider) {
+   $routeProvider
+    .when('/', {
+        templateUrl: 'main.htm',
+        controller:'mainController'
+        })
+    .when('/order', {
+        templateUrl: 'ordering.htm',
+        controller:"orderingController'"
+        })
+}
+  )
 
-            <div class="card" style="width: 18rem;"  ng-repeat="food in foods track by $index" >
-              <div class="card-body">
-                  <img class="card-img-top" ng-src="{{food.imageUrl}}" alt="Card image cap" >
-                <h3 class="card-title">{{food.name}} </h3>
-                  <p class="card-text">{{food.rating}}</p>
-                  <p class="card-dist">{{food.distance}}</p>
-              </div>
-            
-            </div>
-    
+myApp.controller('orderingController' , [
+'$scope', function($scope){
+$scope.toppings = []
+$scope.toppings[0]= {name:'Sausage'}
+}
+])
+    </script>
+-->
+
         </div>
        
 <!--        <div class="container">-->

@@ -1,28 +1,23 @@
-var myApp = angular.module('myApp', []);
+var myApp = angular.module('myApp', ["ngRoute"]);
 
-app.config(function($routeProvider) {
+myApp.config(function($routeProvider) {
    $routeProvider
-    .when('/page1', {
-        templateUrl: 'partials/Home.htm',
+    .when('/', {
+        templateUrl: 'main.htm',
         controller:'mainController'
         })
-    .when('/page2', {
-        templateUrl: 'partials/Ordering.htm',
+    .when('/order', {
+        templateUrl: 'ordering.htm',
         controller:"orderingController'"
         })
-    .when('/page3', {
-        templateUrl: 'partials/Payment.htm'
-        controller:'paymentController'
-        })
-          )
-  }
+}
+  )
 
 myApp.controller('orderingController' , [
-'$scope', function($scope)
+'$scope', function($scope){
 $scope.toppings = []
-$Scope.toppings[0]= {toppings: "Sausage", "Pepperoni", "Cheese"}
-
-
+$scope.toppings[0]= {name:'Sausage'}
+}
 ])
 
 
