@@ -23,16 +23,14 @@ var gateway = braintree.connect({
 });
 
 // Generate a client token
-/*gateway.clientToken.generate({
+gateway.clientToken.generate({
   //customerId: aCustomerId
 }, function (err, response) {
   var clientToken = response.clientToken
-});*/
+});
 
 // Sending token to client
 app.get("/client_token", function (req, res) {
-  //console.log('gateway: ', gateway);
-  //console.log('clientToken: ', gateway.clientToken);
  return gateway.clientToken.generate({}, function (err, response) {
    res.send(response.clientToken);
  });
@@ -46,6 +44,32 @@ app.get('/food', function(req, res) {
   });
 //  res.status(200).send(data);
 })
+
+// Receiving a payment from the client
+app.post("/checkout",function(req,res) {
+  var nonceFromTheClient = req.body.payment_method_nonce;
+  // Use payment method nonce here
+});
+
+// Create a transaction
+gateway.transaction.sale({
+  amount: "10.0",
+  paymentMethodNonce: "fake-valid-nonce",
+  options: {
+    submitForSettlement: true
+  }
+}, function (err, result) {
+  if (err) {
+    console.error(err);
+    return;
+  }
+
+  if (result.success) {
+    console.log('Transaction ID: ' + result.transaction.id);
+  } else {
+    console.error(result.message);
+  }
+});
 
 const port = process.env.PORT || 3000;
 
