@@ -8,8 +8,12 @@ myApp.config(function($routeProvider) {
         })
     .when('/order', {
         templateUrl: 'ordering.htm',
-        controller:"orderingController'"
+        controller:"orderingController"
         })
+	.when('/pay', {
+	   templateUrl: 'pay.htm', 
+	   controller:"payController"
+   })
 }
   )
 
@@ -20,6 +24,11 @@ $scope.toppings[0]= {name:'Sausage'}
 }
 ])
 
+myApp.controller('payController' , [
+'$scope', function($scope) {
+	// everything 
+}	
+])
 
 myApp.controller('mainController', [
   '$scope', '$http', function($scope, $http) {
